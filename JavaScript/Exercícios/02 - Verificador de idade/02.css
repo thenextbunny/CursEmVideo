@@ -1,0 +1,54 @@
+body {
+    background: rgb(172, 204, 225);
+    font: normal 15pt arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.193);
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 15px 0;
+    object-fit: fill;
+}
+
+div {
+  padding: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+input.custom {
+    width: 150px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.193);
+}
+
+input.custom:hover {
+    transform: scale(1.001);
+    transition: 1s;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}

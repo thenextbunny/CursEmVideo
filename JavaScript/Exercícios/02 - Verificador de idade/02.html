@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Requeried meta tags -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> 
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="02.css">
+
+    <title>Horário atual</title>
+</head>
+<body>
+    <header>
+        <h2>Verificador de idade</h2>
+    </header>
+    <section>
+        <div>
+            <div>
+                <label for="ano">Ano de nascimento</label>
+                <input class="custom" type="number" name="ano" id="txtano" min="0">     
+            </div>
+            <div>
+                <input type="radio" name="sex" id="mas" value="0">
+                <label for="mas">Masculino</label>
+                <input type="radio" name="sex" id="fem" value="1" checked>
+                <label for="fem">Feminino</label>
+            </div>
+            <div>
+                <input class="custom" type="button" value="verificar" onclick="verificar()">
+            </div>
+        
+        </div>
+        <div id="res">
+            <p>Preencha os dados acima para ver o resultado.</p>
+        </div>
+        
+    </section>
+    <footer>
+        <p>por @thenextbunny</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src='02.js'></script>
+</body>
+</html>

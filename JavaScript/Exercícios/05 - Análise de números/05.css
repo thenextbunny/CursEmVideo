@@ -1,0 +1,41 @@
+body {
+    background: rgb(79, 82, 84);
+    font: normal 16px arial;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+header {
+    color: #fff;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px 10px 20px;
+}
+
+input, button, select {
+    border: 1px solid rgb(157, 157, 157);
+    border-radius: 5px;
+    line-height: 40px;
+    width: 70%;
+    text-align: center;
+}
+
+input:hover, button:hover, select:hover {
+    transform: scale(1.01);
+}
+
+select {
+    overflow-y: auto;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
