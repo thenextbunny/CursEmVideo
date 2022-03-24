@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Este arquivo foi criado dentro do htdocs do XAMPP e visualizado a partir do localhost com o uso do Apache -->
+
+    <!-- Requeried meta tags -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> 
+    <title>Integração HTML5 + PHP com formulários</title>
+</head>
+<body>
+    <h5>Trabalhando com formulários</h5>
+    <form method="get" action="08-1.php">
+        Nome: <input type="text" name="nome" required/><br>
+        Ano de nascimento: <input type="number" name="ano" required><br>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="homem" checked/>
+            <label for="masc">Masculino</label><br>
+            <input type="radio" name="sexo" id="fem" value="mulher"/>
+            <label for="fem">Feminino</label>
+        </fieldset>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
