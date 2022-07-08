@@ -3,5 +3,5 @@
 </div>
 <div>
   <h3>Sobre o repositório</h3>
-  <p>Este repositório contém os arquivos de estudos durante a realização das aulas disponíveis no canal do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Curso em Vídeo</a> no YouTube.
+  <p>Este repositório contém os arquivos de estudos e práticas durante a realização dos cursos disponíveis no canal do <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Curso em Vídeo</a> no YouTube.
 </div>
